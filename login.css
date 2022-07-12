@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+     overflow: hidden;
+}
+    
+.main-fluid{
+    overflow: hidden;
+    background-image: url(Interview_JjD_2.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat:repeat ;
+    background-size:cover;
+    background-position: center center;
+    border-radius: 1%;
+    width: auto;
+    height: 895px;
+
+}
+
+
+
+.container-fluid{
+    display: flex;
+   margin: 20%;
+   padding-left: 15%;
+
+}
+
+.area-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.login{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 355px;
+    height: 360px; 
+    padding: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input{
+    margin-top: 6px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 36px;
+    outline: none;
+    border-radius: 100px;
+    align-items: baseline;
+    text-align: center;
+}
+
+.login img{
+    width: 80%;
+    height: auto;
+    padding-left: 23%;
+    
+}
+.input::placeholder{
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    
+}
+
+.btn{
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+p{
+    color: rgb(254, 254, 254); 
+    margin-top: 12px;  
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 10px;
+}

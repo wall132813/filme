@@ -1,0 +1,35 @@
+.posiçao {
+ display: inline-block;
+ width: 10rem;
+ text-align: center
+}
+body{
+    background-image: url(The-Batman-Filme-2022.jpg);
+    background-position: center;
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.card{
+    
+    background-color: rgba(32, 4, 4, 0.283);
+    
+}
+h5{
+    color: white;
+}
+p{
+    color: whitesmoke;
+}
+
+
+.foto img{
+    
+    width: 50%;
+    height: auto;
+} 
+.botao{
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+}

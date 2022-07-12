@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="filmes.css">
+    <link rel="stylesheet" href="glide.core.min.css">
+    <link rel="stylesheet" href="glide.theme.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="carrinho.js"></script>
+
+
+</head>
+
+<body onload="logado()">
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 offset-10 p-0">
+                <h6>Bem Vindo:</h6>
+            </div>
+            <div class="col-1 p-0">
+                <h6 id="user"></h6>
+            </div>
+        </div>
+
+        <div class="row">
+         <p id="demo"></p>
+        </div>
+        
+
+        <div class="row align-content-center ">
+
+            <div class="foto text-center">
+                <nav>
+                    <img src="planet.png" alt="">
+                </nav>
+            </div>
+        </div>
+
+         
+
+        <div class="row offset-2">
+            <div class="col 2">
+                <input type="button" class="botao" value="CONTATO">
+            </div>
+            <div class="col 2">
+                <a href="avista.html"><input type="button" class="botao" value="CARRINHO"></a>
+            </div>
+            <div class="col 2">
+               <a href="faleconsco.html"><input type="button" class="botao" value="FALE CONOSCO"></a>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="row align-content-center mt-5 ">    
+            <div class="row ">
+
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide"><img src="001.jpg" alt="" srcset=""></li>
+                            <li class="glide__slide"><img src="002.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="003.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="004.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="005.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="006.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="007.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="008.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="009.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="0010.jpg" alt=""></li>
+                            <li class="glide__slide"><img src="0011.jpg" alt=""></li>
+                        </ul>
+                    </div>
+
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <!-- <button class="glide__arrow glide__arrow--left" data-glide-dir=""></button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=""></button> -->
+                    </div>
+
+                </div>
+
+
+
+
+
+                <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide">
+
+                </script>
+
+                <script>
+                    const config = {
+                        type: "carousel",
+                        perView: 6,
+
+                        breakpoints: {
+                            950: {
+                                perView: 2
+                            }
+                        },
+                        autoplay: 1400
+                    };
+                    new Glide('.glide', config).mount();
+                </script>
+
+            </div>
+
+            <div class="row mt-3 justify-content-center ">
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse  1.html"><img src="001.jpg" class="card-img-top" alt="..."></a>
+                        
+                            <div class="card-body"  style="width: 100%; height: 100%;">
+                                <h5 class="card-title">Doctor Strange</h5>
+                                <br>
+                                <strong>
+                                    <p>Valor: R$ 10.00</p>
+                                </strong>
+                            </div>                        
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 2.html"><img src="002.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%; ">
+                            <h5 class="card-title">The Batman</h5>
+                            <br>
+                            <strong>
+                                <p>Valor: R$ 10.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 3.html"><img src="003.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Underworld</h5>
+                           <br>
+                            <strong>
+                                <p>Valor: R$ 10.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="004.jpg"><img src="004.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">Jurassic World</h5>
+                            <br>
+                            <strong>
+                                <p>Valor: R$ 10.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 5.html"><img src="005.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">OBI-WAN KENOBI</h5>
+                            <strong>
+                                <p>Valor: R$ 20.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row mt-2">
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 6.html"><img src="006.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">THE AVENDERS</h5>
+                            <br>
+
+                            <strong>
+                                <p>Valor: R$ 10.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 7.html"><img src="007.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body"style="width: 100%; height: 100%;">
+                            <h5 class="card-title">DE VOLTA PRO FUTURO II</h5>
+                                <br>
+                            <strong>
+                                <p>Valor: R$12.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 8.html"><img src="008.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">JOKER</h5>
+                            <br>
+                            <strong>
+                                <p>Valor: R$ 10.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 9.html"><img src="009.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">TOP GUN</h5>
+                            <br>
+                            <strong>
+                                <p>Valor: R$ 17.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 10.html"><img src="0010.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">PAC MAM</h5>
+                            <br>
+                            <strong>
+                                <p>Valor: R$ 15.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row mt-2">
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 11.html"><img src="0011.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">BOMBA FETT</h5>
+                            <strong>
+                                <p>Valor: R$8.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 12.html"><img src="0012.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">DESPERADO</h5>
+                           <br>
+                            <strong>
+                                <p>Valor: R$ 10.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 13.html"><img src="0017.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">DUMBO</h5>
+                            <br>
+                            <strong>
+                                <p>Valor: R$ 12.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 14.html"><img src="0014.jpg" class="card-img-top" alt=""></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">SECRETS DUMBLEDORE</h5>
+                           <br>
+                            <strong>
+                                <p>Valor: R$ 10.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col">
+                    <div class="card" style="width: 100%; height: 100%;">
+                        <a href="sinapse 15.html"><img src="0015.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body" style="width: 100%; height: 100%;">
+                            <h5 class="card-title">ALADDIN</h5>
+                            <br>
+                            <strong>
+                                <p>Valor: R$ 10.00</p>
+                            </strong>
+                        </div>
+                    </div>
+                </div
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+</body>
+<script src="time.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+</html>

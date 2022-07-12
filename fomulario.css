@@ -1,0 +1,18 @@
+.container-fluid{
+    background-color: rgb(0, 0, 0);
+    width:auto;
+    height: auto;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.imagem{
+    display: flex;
+    padding-left:35%;
+}
+ .imagem img{
+    width: 50%;
+    height: auto;
+}
